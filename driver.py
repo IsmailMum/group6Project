@@ -41,11 +41,11 @@ while(True):
             current_key = 's'
             pyautogui.keyDown(current_key)
 
-        if x[0] <= 500 and x[1] >= 3500 and current_key != 'd':
+        if x[0] <= 500 and x[1] >= 3500 and current_key != 'a':
             current_key = 'a'
             pyautogui.keyDown(current_key)
             
-        if x[0] >= 3500 and x[1] <= 500 and current_key != 'a':
+        if x[0] >= 3500 and x[1] <= 500 and current_key != 'd':
             current_key = 'd'
             pyautogui.keyDown(current_key)
             		
