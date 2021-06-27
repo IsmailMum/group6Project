@@ -33,19 +33,19 @@ while(True):
     x = list (map (int, re.findall(r'\d+', decoded_input_data)))
     if (len (x) == 2):
         
-        if x[0] <= 500 and x[1] <= 500 and current_key != 'w':
+        if x[0] <= 500 and x[1] <= 500 and current_key != 'd':
             current_key = 'w'
             pyautogui.keyDown(current_key)
             	
-        if x[0] >= 3500 and x[1] >= 3500 and current_key != 's':
+        if x[0] >= 3500 and x[1] >= 3500 and current_key != 'a':
             current_key = 's'
             pyautogui.keyDown(current_key)
 
-        if x[0] <= 500 and x[1] >= 3500 and current_key != 'a':
+        if x[0] <= 500 and x[1] >= 3500 and current_key != 'w':
             current_key = 'a'
             pyautogui.keyDown(current_key)
             
-        if x[0] >= 3500 and x[1] <= 500 and current_key != 'd':
+        if x[0] >= 3500 and x[1] <= 500 and current_key != 's':
             current_key = 'd'
             pyautogui.keyDown(current_key)
             		
